@@ -32,14 +32,15 @@ body {
     position: relative;
 }
 .collateral-header {
-    background-color: #007bff;
+    background-color: #007bff; /* Blue background */
     padding: 8px 12px;
-    position: relative;
-    margin-bottom: 25px; /* Increased from 15px to 25px for better spacing */
-    border-radius: 6px;
+    position: relative; /* Allows absolute positioning of the button */
+    margin-bottom: 15px; /* Space between header and content */
+    border-radius: 6px; /* Optional: rounded corners */
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center; /* Vertically center the text and button */
+    justify-content: space-between; /* Space out text and button */
+    color: white; /* White text for contrast */
 }
 .collateral-content {
     padding: 15px;
@@ -86,7 +87,7 @@ body {
 .remove-collateral-btn {
     position: absolute;
     right: 12px; /* Adjusted to ensure it stays within padding */
-    top: 50%; /* Center vertically */
+    top: 98%; /* Center vertically */
     transform: translateY(-50%); /* Fine-tune vertical centering */
     background-color: transparent;
     color: rgba(255, 255, 255, 0.4);
@@ -94,8 +95,8 @@ body {
     padding: 0 8px; /* Added padding to make it more clickable */
     margin: 0;
     width: auto; /* Allow natural width based on content */
-    height: 20px; /* Increased height for better visibility */
-    line-height: 20px;
+    height: 30px; /* Increased height for better visibility */
+    line-height: 10px;
     font-size: 14px; /* Slightly larger font for clarity */
     cursor: pointer;
     transition: all 0.2s ease;
